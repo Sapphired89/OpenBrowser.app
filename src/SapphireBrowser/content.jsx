@@ -9,7 +9,8 @@ const Content = () => {
       document.body.appendChild(script);
     };
 
-    loadGoogleSearchScript();
+    
+    loadGoogleSearchScript(); 
 
     return () => {
       const script = document.querySelector('script[src="https://cse.google.com/cse.js?cx=877b9fcfa5ccf4f76"]');
